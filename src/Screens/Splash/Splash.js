@@ -5,16 +5,16 @@ import styles from "./Splash.style";
 const Splash = () => {
   const navigation = useNavigation();
   setTimeout(() => {
-    navigation.navigate("SignIn");
+    navigation.navigate("HomeScreen");
   }, 3000);
   return (
     <View style={styles.container}>
       <View style={styles.innerContainer}>
         <Image
-          source={require("../../../assets/chef.png")}
+          source={require("../../../assets/splashScreen.png")}
           style={styles.logoChef}
         />
-        <Text style={styles.mainHiding}>Recipe King</Text>
+        <Text style={styles.mainHiding}>Detect your pneumonia </Text>
       </View>
     </View>
   );

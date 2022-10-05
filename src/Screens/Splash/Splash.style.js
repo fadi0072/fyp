@@ -7,7 +7,7 @@ const windowWidth = Dimensions.get("window").width;
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: GlobalColors.mainColor,
+    backgroundColor: "red",
   },
   innerContainer: {
     marginTop: windowHeight * 0.3,

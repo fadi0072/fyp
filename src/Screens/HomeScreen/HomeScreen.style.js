@@ -72,8 +72,9 @@ export default StyleSheet.create({
     lineHeight: 13.62,
   },
   ViewAll: {
-    justifyContent: "flex-end",
+    justifyContent: "center",
     margin: 15,
+
     alignItems: "center",
   },
   iconImg: {
@@ -85,6 +86,6 @@ export default StyleSheet.create({
     fontSize: 16,
     fontFamily: "OpenSans_400Regular",
     lineHeight: 21.79,
-    color: GlobalColors.mainColor,
+    color: "white",
   },
 });

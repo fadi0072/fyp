@@ -124,6 +124,14 @@ const MainStack = () => {
           headerShown: false,
           headerTransparent: true,
         }}
+        name="HomeScreen"
+        component={HomeScreen}
+      />
+      <Stack.Screen
+        options={{
+          headerShown: false,
+          headerTransparent: true,
+        }}
         name="SignUpComplete"
         component={SignUpComplete}
       />
